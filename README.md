@@ -6,8 +6,12 @@ Using https://www.kaggle.com/ntnu-testimon/paysim1 as an example dataset of tran
 
 # Fraud Detection
 
-Observations in the data -
+Observations in the data
 https://github.com/jmsaylor/ML-Tutorials/blob/master/fraud-training/main.py
+
+Testing 
+https://github.com/jmsaylor/Transaction-Producer
+
 
 https://github.com/jmsaylor/Fraud-Detection/tree/master/src/main
 
