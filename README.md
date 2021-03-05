@@ -1,6 +1,6 @@
 # Overview
 
-This project seeks to model a system of bank transactions based on this data[https://www.kaggle.com/ntnu-testimon/paysim1] in order to detect fraudulent transactions. And, it's being done within a microservices architecture to provide for scalability and modularity. 
+This project seeks to model a system of bank transactions based on this [data](https://www.kaggle.com/ntnu-testimon/paysim1) in order to detect fraudulent transactions. And, it's being done within a microservices architecture to provide for scalability and modularity. 
 
 The pub/sub design pattern is implemented for simulating the high volumes of bank transaction data, and the MVC pattern is used to provide user access to the processed data.
 
@@ -15,8 +15,8 @@ https://github.com/jmsaylor/Transaction-Producer
 Observations in the data
 https://github.com/jmsaylor/ML-Tutorials/blob/master/fraud-training/main.py
 
-https://imgur.com/KYOguJ8.jpg
-https://imgur.com/7RWAMVU.jpg
+[sample frauds](https://imgur.com/KYOguJ8.jpg)
+[sample frauds showing transfer cash-out scheme](https://imgur.com/7RWAMVU.jpg)
 
 Most fraud in this dataset consists of a TRANSFER -> CASH_OUT scheme.  
 
