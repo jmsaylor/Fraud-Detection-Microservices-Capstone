@@ -15,8 +15,8 @@ https://github.com/jmsaylor/Transaction-Producer
 Observations in the data
 https://github.com/jmsaylor/ML-Tutorials/blob/master/fraud-training/main.py
 
-[sample frauds](https://imgur.com/KYOguJ8.jpg)
-[sample frauds showing transfer cash-out scheme](https://imgur.com/7RWAMVU.jpg)
+![sample frauds](https://imgur.com/KYOguJ8.jpg)
+![sample frauds showing transfer cash-out scheme](https://imgur.com/7RWAMVU.jpg)
 
 Most fraud in this dataset consists of a TRANSFER -> CASH_OUT scheme.  
 
