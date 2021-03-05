@@ -1,17 +1,24 @@
 # Overview
 
-A microservices project: fraud detection in bank transactions
+This project seeks to model a system of bank transactions based on this data[https://www.kaggle.com/ntnu-testimon/paysim1] in order to detect fraudulent transactions. And, it's being done within a microservices architecture to provide for scalability and modularity. 
 
-Using https://www.kaggle.com/ntnu-testimon/paysim1 as an example dataset of transactions.
+The pub/sub design pattern is implemented for simulating the high volumes of bank transaction data, and the MVC pattern is used to provide user access to the processed data.
+
+# Transaction Simulation
+
+Using the messaging service Kafka, transactions can be simulated.
+
+https://github.com/jmsaylor/Transaction-Producer
 
 # Fraud Detection
 
 Observations in the data
 https://github.com/jmsaylor/ML-Tutorials/blob/master/fraud-training/main.py
 
-Testing 
-https://github.com/jmsaylor/Transaction-Producer
+https://imgur.com/KYOguJ8.jpg
+https://imgur.com/7RWAMVU.jpg
 
+Most fraud in this dataset consists of a TRANSFER -> CASH_OUT scheme.  
 
 https://github.com/jmsaylor/Fraud-Detection/tree/master/src/main
 
