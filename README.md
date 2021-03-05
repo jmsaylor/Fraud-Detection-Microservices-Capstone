@@ -15,23 +15,25 @@ https://github.com/jmsaylor/Transaction-Producer
 Observations in the data
 https://github.com/jmsaylor/ML-Tutorials/blob/master/fraud-training/main.py
 
-![sample frauds](https://imgur.com/KYOguJ8.jpg)
+Isolating all frauds  together, the majority of frauds consists of this pattern.
+
+TRANSFER -> CASH_OUT with the same amount
+
 ![sample frauds showing transfer cash-out scheme](https://imgur.com/7RWAMVU.jpg)
 
-Most fraud in this dataset consists of a TRANSFER -> CASH_OUT scheme.  
+These are the rest of the frauds that need a method for detection.
 
-https://github.com/jmsaylor/Fraud-Detection/tree/master/src/main
+![sample frauds](https://imgur.com/KYOguJ8.jpg)
 
-
-# Gateway
+## Gateway
 
 https://github.com/jmsaylor/gateway
 
 
-# Auth Server
+## Auth Server
 
 https://github.com/jmsaylor/first-auth-server
 
-# Data Upload (Multithreaded)
+## Data Upload (Multithreaded)
 
 https://github.com/jmsaylor/MultithreadingTest
