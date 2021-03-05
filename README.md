@@ -4,6 +4,8 @@ This project seeks to model a system of bank transactions based on this [data](h
 
 The pub/sub design pattern is implemented for simulating the high volumes of bank transaction data, and the MVC pattern is used to provide user access to the processed data.
 
+![Diagram of Microservices](https://imgur.com/9Q0kurz.jpg)
+
 # Transaction Simulation
 
 Using the messaging service Kafka, transactions can be simulated.
